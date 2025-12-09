@@ -1,5 +1,5 @@
 {
-  "buildCommand": "npm install --legacy-peer-deps --prefix frontend && npm run build --prefix frontend",
-  "installCommand": null,
+  "buildCommand": "bash build.sh",
+  "installCommand": "echo 'Skipping root install'",
   "outputDirectory": "frontend/build"
 }
